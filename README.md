@@ -4,7 +4,7 @@ A lightweight and simple Python CLI alarm clock with JSON persistence.
 
 ## Demo Video
 
-**[Watch the demo recording →](https://drive.google.com/file/d/1v43n8V_IJyQrM_f1anit6ueVHOLdGUzz/view?usp=sharing)**
+**[Watch the demo recording →](https://drive.google.com/file/d/18mDV754KFsJD_0j59TT61yy_PYKHwzWu/view?usp=drive_link)**
 
 The video walks through the full CLI: setting up alarms, managing them, and running the monitor to show how notifications appear when an alarm fires.
 

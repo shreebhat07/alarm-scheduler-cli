@@ -55,21 +55,6 @@ This tool lets you manage daily alarms from the terminal: create them, list/dele
 - Audio file playback or OS notification APIs
 - NTP / timezone conversion
 
-### Edge Cases
-
-| Scenario | Expected Behavior |
-|----------|-------------------|
-| Invalid time (`25:00`, `9:3`) | Reject with clear error; exit code 1 |
-| Delete/enable/snooze unknown ID | `Alarm not found` error |
-| Alarm fires | Ring once; record `last_triggered` date |
-| Same alarm at same time same day | Do not ring again until next calendar day |
-| Disabled alarm | Skipped by monitor |
-| Snooze active | Skip scheduled time; ring at snooze time |
-| Snooze minutes ≤ 0 | Reject with validation error |
-| Missing storage file | Treat as empty alarm list |
-| Corrupt JSON file | Fail with descriptive error |
-| Monitor interrupted (Ctrl+C) | Exit cleanly |
-
 ---
 
 ## 3. Architecture

@@ -1,6 +1,6 @@
 # Alarm Scheduler CLI
 
-A lightweight, production-structured Python CLI alarm clock with JSON persistence.
+A lightweight and simple Python CLI alarm clock with JSON persistence.
 
 ## Demo Video
 
